@@ -1,0 +1,17 @@
+page = PAGE
+page.typeNum = 0
+
+page.10 = CONTENT
+page.10 {
+    table = tt_content
+    select.orderBy = sorting
+    select.where = {#colPos}=0
+}
+
+page.includeCSS {
+   styles = EXT:store_inventory/Resources/Public/Css/styles.css
+}
+
+page.includeJSFooter {
+    js = EXT:store_inventory/Resources/Public/Js/index.js
+}
