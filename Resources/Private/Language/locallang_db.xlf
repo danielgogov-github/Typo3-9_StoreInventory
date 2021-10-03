@@ -3,6 +3,10 @@
     <file source-language="en" datatype="plaintext" original="messages" date="2017-11-27T17:38:32Z" product-name="store_inventory">
         <header/>
         <body>
+            <!-- Module -->
+			<trans-unit id="mlang_tabs_tab" resname="mlang_tabs_tab">
+				<source>Store Inventory</source>
+			</trans-unit>
             <trans-unit id="extension.title">
                 <source>Store Inventory Records</source>
             </trans-unit>
